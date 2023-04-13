@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            height: 300px;
+            width: 300px;
+            background-color: yellow;
+            font-size: 40px;
+            transition: 1s;
+
+        }
+        .main{
+            width: 100%;
+            height: 1000px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        body{
+            margin: 0;
+        }
+        .red{
+            background-color: red;
+            transition: 3s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .yellow{
+            background-color: yellow;
+        }
+        .green{
+            background-color: green;
+        }
+
+        .red:hover{
+            background-color: darkmagenta;
+            transition: ease-in 1s;
+        }
+
+        .box:hover{
+            border-radius: 50%;
+            transition: 1s;
+            transform: scale(1.5);
+        }
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="box red">
+        <p>Hello</p>
+    </div>
+    <div class="box yellow"></div>
+    <div class="box green"></div>
+</div>
+
+
+</body>
+</html>
