@@ -1,0 +1,72 @@
+header{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    margin: 10px;
+}
+#heading p{
+    margin-top: 0;
+
+}
+#heading h4{
+    margin-bottom: 0;
+}
+#heading {
+    text-align: center;
+
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+}
+.active-link{
+    color: #3d5656;
+}
+
+/*----------------------------- main --------------------------*/
+
+main{
+    background-image: url("n.jpg");
+    background-size: cover;
+    height:90vh;
+    padding-top: 10vh;
+}
+section{
+    text-align: center;
+}
+section h1{
+    font-size: 100px;
+    letter-spacing: 40px;
+    margin: 0;
+}
+.text700{
+    font-weight:700;
+    font-size: 25px;
+}
+
+button{
+    width: 170px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 3s;
+}
+button:hover{
+    transform: scale(1.1);
+    color: #e0dec8;
+    transition: 1s;
+}
+
+
+
+
+
+
