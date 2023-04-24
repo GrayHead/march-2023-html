@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <style>
+        /* id class pseudo tag       -*/
+        /* 0 1 0 3*/
+        /*div.content > ul > li {*/
+        /*    color: coral;*/
+        /*}*/
+        /*!* 0 0 0 2*!*/
+        /*ul li{*/
+        /*    color: cornflowerblue;*/
+        /*}*/
+        /*!* 0 0 0 3*!*/
+        /*body ul li{*/
+        /*    color: darkmagenta;*/
+        /*}*/
+
+        /*div.content > ul:nth-child(3) > li:nth-child(3){*/
+        /*    color: coral;*/
+        /*}*/
+
+        /*div.content > ul > li{*/
+        /*    color: cornflowerblue;*/
+        /*}*/
+
+        /*div.content > ul > li:first-letter{*/
+        /*    color: coral;*/
+        /*}*/
+        /* id class tag space > nth*/
+
+        li{
+            list-style: none;
+        }
+
+        div.content > ul > li:before{
+            content: " ";
+            width: 10px;
+            height: 10px;
+            background-image: url("favicon-32x32.png");
+            background-size: cover;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        li:after{
+            content: " !!! ";
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <p>hello</p>
+        <p>hello4</p>
+        <ul>
+            <li>item</li>
+            <li>item</li>
+            <li >item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+        </ul>
+        <ul>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+            <li>item</li>
+
+        </ul>
+    </div>
+
+    <ul class="content">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+</body>
+</html>
