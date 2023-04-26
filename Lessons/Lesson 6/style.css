@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.a{
+    height: 20vh;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+.wrap{
+    display: flex;
+}
+.b{
+    height: 80vh;
+    width: 80%;
+    background-color: darkcyan;
+}
+
+.c{
+    height: 80vh;
+    width: 20%;
+    background-color: darkslategray;
+}
